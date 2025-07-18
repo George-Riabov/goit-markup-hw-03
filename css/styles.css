@@ -125,6 +125,8 @@ address ul {
 
 .solutions {
   background-color: #2e2f42;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .main-head {
@@ -134,9 +136,16 @@ address ul {
   letter-spacing: 0.02em;
   text-align: center;
   color: white;
+  padding-bottom: 48px;
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .order-btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #4d5ae5;
   color: #ffffff;
   font-weight: 500;
@@ -145,6 +154,8 @@ address ul {
   cursor: pointer;
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.04em;
+  padding: 16px 32px;
+  border-radius: 4px;
 }
 
 .order-btn:hover,
