@@ -333,16 +333,21 @@ header .container {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 100px 0;
 }
 
 .foot-para {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 
 .cloud-text {
   color: #f4f4fd;
+}
+
+footer .logo{
+  display: inline-block;
+  margin-bottom: 16px;
 }
