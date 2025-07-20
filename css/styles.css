@@ -41,10 +41,8 @@ img {
 /* Container for layout alignment */
 .container {
   max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 section {
@@ -79,33 +77,36 @@ header .container {
 .black-text {
   color: #2e2f42;
 }
-nav {
+
+.main-nav {
   display: flex;
   align-items: center;
 }
-nav ul {
+.navi-list {
   display: flex;
   gap: 40px;
   padding: 0;
   margin: 0;
 }
-.navi-list {
+
+.navi-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color: #2e2f42;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
-.navi-list:hover,
-.navi-list:focus {
+.navi-item:hover,
+.navi-item:focus {
   color: #404bbf;
 }
 
 .address {
   font-style: normal;
 }
-address ul {
+.adress-list {
   display: flex;
   gap: 40px;
   margin: 0;
@@ -309,11 +310,13 @@ address ul {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .foot-para {
   line-height: 1.5;
-  --main-color: #f4f4fd;
+  color: #f4f4fd;
   letter-spacing: 0.02em;
 }
 
