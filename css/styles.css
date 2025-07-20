@@ -59,8 +59,7 @@ header .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 0 15px;
 }
 
 .logo {
@@ -85,7 +84,7 @@ header .container {
 .navi-list {
   display: flex;
   gap: 40px;
-  padding: 0;
+  padding: 24px 0;
   margin: 0;
 }
 
