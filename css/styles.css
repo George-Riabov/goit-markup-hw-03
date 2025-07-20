@@ -135,6 +135,7 @@ header .container {
 
 .solutions {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .main-head {
@@ -165,6 +166,8 @@ header .container {
   padding: 16px 32px;
   border-radius: 4px;
   min-width: 169px;
+  height: 56px;
+  border: none;
 }
 
 .order-btn:hover,
@@ -195,6 +198,7 @@ header .container {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .para-style {
@@ -209,7 +213,7 @@ header .container {
   display: flex;
   gap: 24px;
 }
-.str-list li {
+.str-item {
   width: calc((100% - 72px) / 4);
 }
 
